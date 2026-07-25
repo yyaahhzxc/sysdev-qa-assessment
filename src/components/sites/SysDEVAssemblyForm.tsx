@@ -3,14 +3,14 @@ import { Check } from 'lucide-react';
 
 import { ViewportMode } from '../../types/assessment';
 
-interface SysDevAssemblyFormProps {
+interface SysDEVAssemblyFormProps {
   discoveredBugIds: number[];
   onDiscoverBug: (id: number) => void;
   viewportMode: ViewportMode;
   onInspect?: (e: React.MouseEvent, isBug: boolean, title: string, bugId?: number) => void;
 }
 
-export const SysDevAssemblyForm: React.FC<SysDevAssemblyFormProps> = ({
+export const SysDEVAssemblyForm: React.FC<SysDEVAssemblyFormProps> = ({
   discoveredBugIds,
   onDiscoverBug,
   viewportMode,
