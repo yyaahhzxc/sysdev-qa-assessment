@@ -4,9 +4,9 @@ import { BUGS_DATA } from './data/bugsData';
 import { Onboarding } from './components/Onboarding';
 import { Header } from './components/Header';
 import { ToastContainer } from './components/ToastContainer';
-import { SysDevOrgPage } from './components/sites/SysDevOrgPage';
-import { SysDevMerchSite } from './components/sites/SysDevMerchSite';
-import { SysDevAssemblyForm } from './components/sites/SysDevAssemblyForm';
+import { SysDEVOrgPage } from './components/sites/SysDEVOrgPage';
+import { SysDEVMerchSite } from './components/sites/SysDEVMerchSite';
+import { SysDEVAssemblyForm } from './components/sites/SysDEVAssemblyForm';
 import { ResultsScreen } from './components/results/ResultsScreen';
 import { GithubIssueSimulator } from './components/results/GithubIssueSimulator';
 import { FinalReport } from './components/results/FinalReport';
@@ -250,7 +250,7 @@ export const App: React.FC = () => {
                 className="w-full min-w-full max-w-none border-none rounded-none shadow-none m-0 p-0 h-[calc(100vh-120px)] bg-white dark:bg-zinc-950 overflow-y-auto overflow-x-hidden"
               >
                 {currentSite === 'org' && (
-                  <SysDevOrgPage
+                  <SysDEVOrgPage
                     discoveredBugIds={discoveredBugIds}
                     onDiscoverBug={handleDiscoverBug}
                     viewportMode={viewportMode}
@@ -258,7 +258,7 @@ export const App: React.FC = () => {
                   />
                 )}
                 {currentSite === 'merch' && (
-                  <SysDevMerchSite
+                  <SysDEVMerchSite
                     discoveredBugIds={discoveredBugIds}
                     onDiscoverBug={handleDiscoverBug}
                     viewportMode={viewportMode}
@@ -266,7 +266,7 @@ export const App: React.FC = () => {
                   />
                 )}
                 {currentSite === 'assembly' && (
-                  <SysDevAssemblyForm
+                  <SysDEVAssemblyForm
                     discoveredBugIds={discoveredBugIds}
                     onDiscoverBug={handleDiscoverBug}
                     viewportMode={viewportMode}
@@ -298,7 +298,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   {currentSite === 'org' && (
-                    <SysDevOrgPage
+                    <SysDEVOrgPage
                       discoveredBugIds={discoveredBugIds}
                       onDiscoverBug={handleDiscoverBug}
                       viewportMode={viewportMode}
@@ -306,7 +306,7 @@ export const App: React.FC = () => {
                     />
                   )}
                   {currentSite === 'merch' && (
-                    <SysDevMerchSite
+                    <SysDEVMerchSite
                       discoveredBugIds={discoveredBugIds}
                       onDiscoverBug={handleDiscoverBug}
                       viewportMode={viewportMode}
@@ -314,7 +314,7 @@ export const App: React.FC = () => {
                     />
                   )}
                   {currentSite === 'assembly' && (
-                    <SysDevAssemblyForm
+                    <SysDEVAssemblyForm
                       discoveredBugIds={discoveredBugIds}
                       onDiscoverBug={handleDiscoverBug}
                       viewportMode={viewportMode}

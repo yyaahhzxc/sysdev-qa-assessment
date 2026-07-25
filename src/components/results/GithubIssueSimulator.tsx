@@ -39,7 +39,7 @@ export const GithubIssueSimulator: React.FC<GithubIssueSimulatorProps> = ({
 [Describe what occurs vs what is expected to occur in the simulated application]
 
 ### Step-by-Step Reproduction Procedure
-1. Navigate to Tab: [SysDev Org Page / Merch Site / General Assembly]
+1. Navigate to Tab: [SysDEV Org Page / Merch Site / General Assembly]
 2. Perform test action: [e.g., Click 'Add to Cart' or select 1st Year dropdown]
 3. Observe software defect: [Describe exact incorrect feedback]
 

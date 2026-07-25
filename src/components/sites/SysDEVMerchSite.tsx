@@ -3,14 +3,14 @@ import { ShoppingBag, Tag, Truck, Plus, Minus, ArrowRight, ShoppingCart } from '
 
 import { ViewportMode } from '../../types/assessment';
 
-interface SysDevMerchSiteProps {
+interface SysDEVMerchSiteProps {
   discoveredBugIds: number[];
   onDiscoverBug: (id: number) => void;
   viewportMode: ViewportMode;
   onInspect?: (e: React.MouseEvent, isBug: boolean, title: string, bugId?: number) => void;
 }
 
-export const SysDevMerchSite: React.FC<SysDevMerchSiteProps> = ({
+export const SysDEVMerchSite: React.FC<SysDEVMerchSiteProps> = ({
   discoveredBugIds,
   onDiscoverBug,
   viewportMode,

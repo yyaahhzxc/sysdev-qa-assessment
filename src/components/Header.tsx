@@ -45,7 +45,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Left: Identity / Brand */}
         <div className="flex items-center gap-3 w-full sm:w-auto">
           <div className="w-10 h-10 rounded-2xl overflow-hidden bg-sysdev-navy flex shrink-0 items-center justify-center shadow-md">
-            <img src="/samahan-sysdev-logo.png" alt="SysDev" className="w-full h-full object-cover" />
+            <img src="./samahan-sysdev-logo.png" alt="SysDEV" className="w-full h-full object-cover" />
           </div>
           <div>
             <div className="flex items-center gap-2">

@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { ViewportMode } from '../../types/assessment';
 import { Search, Menu, ArrowRight, Github, ExternalLink, Calendar, Code2, MessageSquare, Send } from 'lucide-react';
 
-interface SysDevOrgPageProps {
+interface SysDEVOrgPageProps {
   discoveredBugIds: number[];
   onDiscoverBug: (id: number) => void;
   viewportMode: ViewportMode;
   onInspect?: (e: React.MouseEvent, isBug: boolean, title: string, bugId?: number) => void;
 }
 
-export const SysDevOrgPage: React.FC<SysDevOrgPageProps> = ({
+export const SysDEVOrgPage: React.FC<SysDEVOrgPageProps> = ({
   discoveredBugIds,
   onDiscoverBug,
   viewportMode,
@@ -48,7 +48,7 @@ export const SysDevOrgPage: React.FC<SysDevOrgPageProps> = ({
             className="flex items-center gap-2 cursor-pointer transition hover:bg-slate-100 dark:hover:bg-zinc-800 py-1 px-2 rounded-lg border border-transparent"
           >
             <div className="w-8 h-8 rounded-lg bg-sysdev-navy flex items-center justify-center overflow-hidden shadow-sm">
-              <img src="/samahan-sysdev-logo.png" alt="SysDEV" className="w-full h-full object-cover" />
+              <img src="./samahan-sysdev-logo.png" alt="SysDEV" className="w-full h-full object-cover" />
             </div>
             <div className="leading-tight">
               <span className="font-black text-xs block text-slate-900 dark:text-white tracking-tight">SAMAHAN</span>

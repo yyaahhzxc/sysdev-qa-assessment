@@ -61,7 +61,7 @@ export const FinalReport: React.FC<FinalReportProps> = ({
         {/* Official Assessment Portfolio Certificate Header */}
         <div className="bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-800 rounded-xl p-8 sm:p-10 shadow-md text-center relative overflow-hidden print:shadow-none print:border-none print:p-0">
           <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center overflow-hidden rounded-2xl shadow-md transition transform hover:scale-105">
-            <img src="/samahan-sysdev-logo.png" alt="SysDev" className="w-full h-full object-cover" />
+            <img src="./samahan-sysdev-logo.png" alt="SysDEV" className="w-full h-full object-cover" />
           </div>
           <span className="text-xs font-bold tracking-widest text-sysdev-navy dark:text-sysdev-gold uppercase px-3 py-1 rounded-full bg-slate-100 dark:bg-zinc-800 border border-slate-200 dark:border-zinc-700 inline-block">
             SAMAHAN Systems Development • Ateneo de Davao University

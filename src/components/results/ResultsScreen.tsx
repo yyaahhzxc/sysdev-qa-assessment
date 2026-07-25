@@ -52,7 +52,7 @@ export const ResultsScreen: React.FC<ResultsScreenProps> = ({
             <div className="flex items-center gap-4">
               {/* Seamless Logo Container */}
               <div className="w-16 h-16 rounded-2xl overflow-hidden shadow-md flex items-center justify-center shrink-0 border border-slate-800">
-                <img src="/samahan-sysdev-logo.png" alt="SAMAHAN SysDev" className="w-full h-full object-cover" />
+                <img src="./samahan-sysdev-logo.png" alt="SAMAHAN SysDEV" className="w-full h-full object-cover" />
               </div>
               <div>
                 <span className="px-2.5 py-0.5 rounded-full text-[10px] font-mono font-black uppercase tracking-wider bg-sysdev-gold text-slate-950 mb-1.5 inline-block">
@@ -124,7 +124,7 @@ export const ResultsScreen: React.FC<ResultsScreenProps> = ({
               {/* Tab 1 Stats */}
               <div className="p-4 rounded-xl border border-slate-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-2sm space-y-2">
                 <div className="flex justify-between font-bold text-slate-900 dark:text-white font-sans">
-                  <span>Tab 1: SysDev Org Page</span>
+                  <span>Tab 1: SysDEV Org Page</span>
                   <span className="text-indigo-600 dark:text-sysdev-gold">
                     {orgBugs.filter((b) => discoveredBugIds.includes(b.id)).length} / 6
                   </span>
@@ -141,7 +141,7 @@ export const ResultsScreen: React.FC<ResultsScreenProps> = ({
               {/* Tab 2 Stats */}
               <div className="p-4 rounded-xl border border-slate-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-2sm space-y-2">
                 <div className="flex justify-between font-bold text-slate-900 dark:text-white font-sans">
-                  <span>Tab 2: SysDev Merch Site</span>
+                  <span>Tab 2: SysDEV Merch Site</span>
                   <span className="text-amber-600 dark:text-amber-400">
                     {merchBugs.filter((b) => discoveredBugIds.includes(b.id)).length} / 6
                   </span>

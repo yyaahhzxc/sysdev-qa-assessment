@@ -30,13 +30,13 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onStart }) => {
         {/* Brand Header */}
         <div className="flex flex-col items-center text-center pb-8 border-b border-slate-100 dark:border-zinc-800">
           <div className="w-24 h-24 mb-4 flex items-center justify-center overflow-hidden rounded-2xl shadow-md transition transform hover:scale-105">
-            <img src="/samahan-sysdev-logo.png" alt="SAMAHAN SysDev Logo" className="w-full h-full object-cover" />
+            <img src="./samahan-sysdev-logo.png" alt="SAMAHAN SysDEV Logo" className="w-full h-full object-cover" />
           </div>
           <span className="text-xs font-semibold tracking-widest text-sysdev-navy dark:text-sysdev-gold uppercase bg-slate-100 dark:bg-zinc-800 px-3 py-1 rounded-full mb-2 border border-slate-200 dark:border-zinc-700">
             Ateneo de Davao University
           </span>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-950 dark:text-white">
-            SysDev QA Assessment Test
+            SysDEV QA Assessment Test
           </h1>
           <p className="mt-2 text-sm text-slate-600 dark:text-zinc-400 max-w-md">
             This is the second phase of the assessment test for Quality Assurance Testers of the SAMAHAN Systems Development '26-'27.

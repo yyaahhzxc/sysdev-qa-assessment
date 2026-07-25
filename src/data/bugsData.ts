@@ -1,7 +1,7 @@
 import { Bug } from '../types/assessment';
 
 export const BUGS_DATA: Bug[] = [
-  // --- Site 1: SysDev Org Page (SAMAHAN Systems Development Portal) ---
+  // --- Site 1: SysDEV Org Page (SAMAHAN Systems Development Portal) ---
   {
     id: 1,
     title: 'External Link Redirects to Wrong Destination',
@@ -44,7 +44,7 @@ export const BUGS_DATA: Bug[] = [
     description: 'In the Technical Workshops showcase section, a multi-line title is wrapped in a container with fixed height and overflow: hidden, cutting off the lower half of the text.',
     stepsToReproduce: [
       'Scroll down to the "Featured Workshops & Bootcamps" section.',
-      'Locate the card titled "SAMAHAN SysDev Advanced AI & Software Engineering Bootcamp 2026".',
+      'Locate the card titled "SAMAHAN SysDEV Advanced AI & Software Engineering Bootcamp 2026".',
       'Observe the rendering of the typography within the card header.',
       'Note that the second and third lines of text are horizontally and vertically truncated without ellipses.'
     ],
@@ -78,7 +78,7 @@ export const BUGS_DATA: Bug[] = [
     description: 'The newsletter subscription input accepts non-institutional personal emails despite the placeholder requiring @addu.edu.ph domain.',
     stepsToReproduce: [
       'Scroll down to the site footer.',
-      'Enter a personal email (e.g. user@gmail.com) in the Subscribe to SysDev Dispatch input box.',
+      'Enter a personal email (e.g. user@gmail.com) in the Subscribe to SysDEV Dispatch input box.',
       'Click Subscribe.',
       'Notice that the form accepts the input without throwing a validation error.'
     ],
@@ -105,7 +105,7 @@ export const BUGS_DATA: Bug[] = [
     points: 100
   },
 
-  // --- Site 2: SysDev Merch Site (SAMAHAN SysDev Official Merchandise Shop) ---
+  // --- Site 2: SysDEV Merch Site (SAMAHAN SysDEV Official Merchandise Shop) ---
   {
     id: 7,
     title: 'Shopping Cart Quantity Negative Underflow',
@@ -113,7 +113,7 @@ export const BUGS_DATA: Bug[] = [
     category: 'Logic / Calculation',
     description: 'The shopping cart quantity decrement control omits a zero-floor check, enabling item quantities to descend into negative integers (e.g., -1, -2) which deducts funds from the subtotal.',
     stepsToReproduce: [
-      'Navigate to the SysDev Merch Shop tab and add any merchandise item to the shopping cart.',
+      'Navigate to the SysDEV Merch Shop tab and add any merchandise item to the shopping cart.',
       'Open the interactive shopping cart review pane.',
       'Click the item decrement button ("-") repeatedly until the quantity reaches 0.',
       'Click the decrement button again and observe the quantity shifting to -1 and subtotal decreasing.'
@@ -130,7 +130,7 @@ export const BUGS_DATA: Bug[] = [
     category: 'Logic / Calculation',
     description: 'Applying promotional voucher code SYSDEV50 (advertised as a ₱50.00 student discount) mathematically adds ₱50.00 to the checkout grand total instead of subtracting it.',
     stepsToReproduce: [
-      'Add any SysDev merchandise (e.g., SysDev Essential Shirt at ₱450.00) to your order.',
+      'Add any SysDEV merchandise (e.g., SysDEV Essential Shirt at ₱450.00) to your order.',
       'Navigate to the voucher discount field in the cart summary.',
       'Enter voucher code "SYSDEV50" and click Apply Voucher.',
       'Inspect the computed Discount line item and Grand Total.'
@@ -179,9 +179,9 @@ export const BUGS_DATA: Bug[] = [
     title: 'Option Selection Price Extra-Zero Decimal Slip',
     siteId: 'merch',
     category: 'Logic / Calculation',
-    description: 'A SysDev Varsity Jacket is advertised at ₱1,200.00 on the catalog listing, but selecting the "Custom Embroidered Name" customization option erroneously shifts the displayed item price to ₱12,000.00.',
+    description: 'A SysDEV Varsity Jacket is advertised at ₱1,200.00 on the catalog listing, but selecting the "Custom Embroidered Name" customization option erroneously shifts the displayed item price to ₱12,000.00.',
     stepsToReproduce: [
-      'Locate the "SysDev Official Varsity Jacket" card in the merchandise catalog priced at ₱1,200.00.',
+      'Locate the "SysDEV Official Varsity Jacket" card in the merchandise catalog priced at ₱1,200.00.',
       'Click on the product customization radio option for "Add Custom Name Embroidery (+₱100)".',
       'Observe the live price display updates on the product card and item billing tag.',
       'Notice the price immediately jumps from ₱1,200.00 to ₱12,000.00 due to an extra trailing zero typo.'
@@ -196,10 +196,10 @@ export const BUGS_DATA: Bug[] = [
     title: 'Navbar Cart Badge Count Desync (+3 Jump on Single Add)',
     siteId: 'merch',
     category: 'Logic / Calculation',
-    description: 'Clicking "Add to Cart" once on the SysDev Lanyard item increments the header navigation bar cart item count badge by +3, despite adding only 1 physical unit to the actual cart review list.',
+    description: 'Clicking "Add to Cart" once on the SysDEV Lanyard item increments the header navigation bar cart item count badge by +3, despite adding only 1 physical unit to the actual cart review list.',
     stepsToReproduce: [
       'Ensure your initial shopping cart item count badge reads 0.',
-      'Locate the "SAMAHAN SysDev Woven Lanyard" product item in the shop catalog.',
+      'Locate the "SAMAHAN SysDEV Woven Lanyard" product item in the shop catalog.',
       'Click the "Add to Cart" button exactly once.',
       'Compare the navbar item badge number (which reads +3) against the actual items appearing inside the cart drawer (which shows 1 unit).'
     ],
@@ -209,7 +209,7 @@ export const BUGS_DATA: Bug[] = [
     points: 100
   },
 
-  // --- Site 3: SysDev General Assembly Signup Form (SAMAHAN SysDev GA Gathering) ---
+  // --- Site 3: SysDEV General Assembly Signup Form (SAMAHAN SysDEV GA Gathering) ---
 
   {
     id: 13,
